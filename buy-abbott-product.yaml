@@ -1,0 +1,98 @@
+id: "buy-abbott-product"
+version: "1.0"
+name: "Buy Abbott Product Workflow"
+description: "A workflow to buy an Abbott product using a unique product code."
+start: "BuyProductState"
+dataInputSchema:
+  failOnValidationErrors: true
+  schema: >
+    {
+      "type": "object",
+      "properties": {
+        "sku": {
+          "type": "string",
+          "description": "Unique sku code of the product"
+        },
+        "fullName": {
+          "type": "string",
+          "description": "Customer full name"
+        },
+        "phoneNumber": {
+          "type": "string",
+          "description": "Customer phone number"
+        },
+        "address": {
+          "type": "string",
+          "description": "Customer address to deliver the product"
+        }
+      },
+      "required": ["sku"]
+    }
+functions:
+  - name: "buyProduct"
+    type: "rest"
+    operation: >
+      restDefinition#
+      {
+        "servers": [
+          {
+            "url": "https://665876fb5c361705264890f5.mockapi.io/api/v1"
+          }
+        ],
+        "paths": {
+          "/abbott/buy": {
+            "post": {
+              "description": "Buy an Abbott product",
+              "requestBody": {
+                "required": true,
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "type": "object",
+                      "properties": {
+                          "sku": {
+                              "type": "string",
+                              "description": "The SKU of the product"
+                          },
+                          "fullName": {
+                              "type": "string",
+                              "description": "The full name of the buyer"
+                          },
+                          "phoneNumber": {
+                              "type": "string",
+                              "description": "The phone number of the buyer"
+                          },
+                          "address": {
+                              "type": "string",
+                              "description": "The address of the buyer"
+                          }
+                      },
+                      "required": [
+                          "sku",
+                          "fullName",
+                          "phoneNumber",
+                          "address"
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+states:
+  - name: "BuyProductState"
+    type: "operation"
+    actions:
+      - functionRef:
+          refName: "buyProduct"
+          arguments:
+            sku: "${ .sku }"
+            fullName: "${ .fullName }"
+            phoneNumber: "${ .phoneNumber }"
+            address: "${ .address }"
+        actionDataFilter:
+          results: "${ {\"buyProductResult\": .result, \"message\": \"Thông tin mua hàng đã được chuyển tới bộ phận mua hàng của Abbott. Chúng tôi sẽ liên hệ bạn trong thời gian sớm nhất\" }"
+          toStateData: "${ . }"
+    end: true
