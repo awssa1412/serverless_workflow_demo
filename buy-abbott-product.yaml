@@ -11,7 +11,7 @@ dataInputSchema:
       "properties": {
         "sku": {
           "type": "string",
-          "description": "Unique sku code of the product"
+          "description": "Unique sku code of the product. The list of product defined in https://github.com/awssa1412/serverless_workflow_demo/blob/main/abbott_products.json"
         },
         "fullName": {
           "type": "string",
