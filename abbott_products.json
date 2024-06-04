@@ -1,0 +1,23 @@
+[
+  {
+    "sku": "000001",
+    "name": "Abbot Similac 1",
+    "category": "Similac"
+  },{
+    "sku": "000002",
+    "name": "Abbot Similac 2",
+    "category": "Similac"
+  },{
+    "sku": "000003",
+    "name": "Abbot Pediasure 1",
+    "category": "Pediasure"
+  },{
+    "sku": "000004",
+    "name": "Abbot Pediasure 2",
+    "category": "Pediasure"
+  },{
+    "sku": "000005",
+    "name": "Abbot Ensure 1",
+    "category": "Ensure"
+  }
+]
