@@ -1,0 +1,62 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Invoice",
+    "type": "object",
+    "properties": {
+        "sellerInformation": {
+            "type": "object",
+            "properties": {
+                "companyName": {
+                    "type": "string",
+                    "description": "The name of the seller or service provider."
+                },
+                "address": {
+                    "type": "string",
+                    "description": "Full postal address of the seller."
+                },
+                "phoneNumber": {
+                    "type": "string",
+                    "description": "Phone number of the seller."
+                },
+                "tax": {
+                    "type": "string",
+                    "description": "VAT or GST number, if applicable."
+                }
+            },
+            "required": [
+                "companyName",
+                "address",
+                "tax"
+            ]
+        },
+        "buyerInformation": {
+            "type": "object",
+            "properties": {
+                "customerName": {
+                    "type": "string",
+                    "description": "The name of the buyer or client."
+                },
+                "billingAddress": {
+                    "type": "string",
+                    "description": "Full postal address of the buyer."
+                },
+                "shippingAddress": {
+                    "type": "string",
+                    "description": "Shipping address if different from the billing address."
+                },
+                "phoneNumber": {
+                    "type": "string",
+                    "description": "Phone number of the buyer."
+                }
+            },
+            "required": [
+                "customerName",
+                "billingAddress"
+            ]
+        }
+    },
+    "required": [
+        "sellerInformation",
+        "buyerInformation"
+    ]
+}
