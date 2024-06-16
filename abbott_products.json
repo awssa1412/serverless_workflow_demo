@@ -1,23 +1,184 @@
 [
   {
     "sku": "000001",
-    "name": "Abbot Similac 1",
-    "category": "Similac"
-  },{
+    "name": "Sữa bột Abbott Grow số 3 hương vani 900g",
+    "category": "Sữa bột",
+    "price": "299.000VNĐ",
+    "description": "Sữa bột Abbott Grow số 3 hương vani 900g (1 - 2 tuổi)"
+  },
+  {
     "sku": "000002",
-    "name": "Abbot Similac 2",
-    "category": "Similac"
-  },{
+    "name": "Sữa bột Abbott Grow số 4 hương vani 900g",
+    "category": "Sữa bột",
+    "price": "339.000VNĐ",
+    "description": "Sữa bột Abbott Grow số 4 hương vani 900g (từ 2 tuổi)"
+  },
+  {
     "sku": "000003",
-    "name": "Abbot Pediasure 1",
-    "category": "Pediasure"
-  },{
+    "name": "Sữa bột Abbott Grow số 4 hương vani 1.7 kg",
+    "category": "Sữa bột",
+    "price": "589.000VNĐ",
+    "description": "Sữa bột Abbott Grow số 4 hương vani 1.7 kg (từ 2 tuổi)"
+  },
+  {
     "sku": "000004",
-    "name": "Abbot Pediasure 2",
-    "category": "Pediasure"
-  },{
+    "name": "Sữa bột Abbott Grow số 2 hương vani 900g",
+    "category": "Sữa bột",
+    "price": "339.000VNĐ",
+    "description": "Sữa bột Abbott Grow số 2 hương vani 900g (6 - 12 tháng)"
+  },
+  {
     "sku": "000005",
-    "name": "Abbot Ensure 1",
-    "category": "Ensure"
+    "name": "Sữa bột Abbott Grow Gold 3+ hương vani 900g",
+    "category": "Sữa bột",
+    "price": "419.000VNĐ",
+    "description": "Sữa bột Abbott Grow Gold 3+ hương vani 900g (3 - 6 tuổi)"
+  },
+  {
+    "sku": "000006",
+    "name": "Combo 3 hộp sữa bột Abbott Grow Gold 3+ hương vani 900g",
+    "category": "Sữa bột",
+    "price": "1.257.000VNĐ",
+    "description": "Combo 3 hộp sữa bột Abbott Grow Gold 3+ hương vani 900g (3 - 6 tuổi)"
+  },
+  {
+    "sku": "000007",
+    "name": "Sữa bột Abbott Grow số 1 hương vani 900g",
+    "category": "Sữa bột",
+    "price": "359.000VNĐ",
+    "description": "Sữa bột Abbott Grow số 1 hương vani 900g (0 - 6 tháng)"
+  },
+  {
+    "sku": "000008",
+    "name": "Combo 3 hộp sữa bột Abbott Grow số 4 hương vani 1.7 kg",
+    "category": "Sữa bột",
+    "price": "1.767.000VNĐ",
+    "description": "Combo 3 hộp sữa bột Abbott Grow số 4 hương vani 1.7 kg (từ 2 tuổi)"
+  },
+  {
+    "sku": "000009",
+    "name": "Sữa bột Abbott Grow 3 – hộp 900g",
+    "category": "Sữa bột",
+    "price": "238.000VNĐ",
+    "description": "Sữa bột Abbott Grow 3 – hộp 900g (dành cho trẻ từ 1 – 3 tuổi)"
+  },
+  {
+    "sku": "000010",
+    "name": "Sữa bột Abbott Grow Singapore – hộp 1800g",
+    "category": "Sữa bột",
+    "price": "630.000VNĐ",
+    "description": "Sữa bột Abbott Grow Singapore – hộp 1800g (dành cho trẻ từ 3 – 7 tuổi)"
+  },
+  {
+    "sku": "000011",
+    "name": "Sữa bột Abbott Grow 1 – hộp 900g",
+    "category": "Sữa bột",
+    "price": "298.000VNĐ",
+    "description": "Sữa bột Abbott Grow 1 – hộp 900g (dành cho trẻ từ 0 – 6 tháng)"
+  },
+  {
+    "sku": "000012",
+    "name": "Sữa bột Abbott Grow 2 – hộp 900g",
+    "category": "Sữa bột",
+    "price": "280.000VNĐ",
+    "description": "Sữa bột Abbott Grow 2 – hộp 900g (dành cho trẻ từ 6 – 12 tháng)"
+  },
+  {
+    "sku": "000013",
+    "name": "Sữa bột Abbott Grow G-Power 3+ – hộp 900g",
+    "category": "Sữa bột",
+    "price": "340.000VNĐ",
+    "description": "Sữa bột Abbott Grow G-Power 3+ – hộp 900g (dành cho trẻ từ 3 – 6 tuổi)"
+  },
+  {
+    "sku": "000014",
+    "name": "Sữa bột Abbott Grow School G-Power 6+ – hộp 900g",
+    "category": "Sữa bột",
+    "price": "354.000VNĐ",
+    "description": "Sữa bột Abbott Grow School G-Power 6+ – hộp 900g (dành cho trẻ từ 6 đến 10 tuổi)"
+  },
+  {
+    "sku": "000015",
+    "name": "Sữa bột Abbott Grow 1 – hộp 400g",
+    "category": "Sữa bột",
+    "price": "144.000VNĐ",
+    "description": "Sữa bột Abbott Grow 1 – hộp 400g (dành cho trẻ từ 0 – 6 tháng)"
+  },
+  {
+    "sku": "000016",
+    "name": "Sữa bột Abbott Grow G-Power 3+ – hộp 1700g",
+    "category": "Sữa bột",
+    "price": "565.000VNĐ",
+    "description": "Sữa bột Abbott Grow G-Power 3+ – hộp 1700g (dành cho trẻ từ 3 – 6 tuổi)"
+  },
+  {
+    "sku": "000017",
+    "name": "Sữa bột Abbott Grow 2 – hộp 400g",
+    "category": "Sữa bột",
+    "price": "140.000VNĐ",
+    "description": "Sữa bột Abbott Grow 2 – hộp 400g (dành cho trẻ từ 6 – 12 tháng)"
+  },
+  {
+    "sku": "000018",
+    "name": "Sữa bột Abbott Grow 4 – hộp 1700g",
+    "category": "Sữa bột",
+    "price": "468.000VNĐ",
+    "description": "Sữa bột Abbott Grow 4 – hộp 1700g (dành cho trẻ từ 3 – 6 tuổi)"
+  },
+  {
+    "sku": "000019",
+    "name": "Sữa bột Abbott Grow 4 – hộp 900g",
+    "category": "Sữa bột",
+    "price": "275.000VNĐ",
+    "description": "Sữa bột Abbott Grow 4 – hộp 900g (dành cho trẻ từ 3 – 6 tuổi)"
+  },
+  {
+    "sku": "000020",
+    "name": "Sữa bột Abbott Grow 3 – hộp 400g",
+    "category": "Sữa bột",
+    "price": "123.000VNĐ",
+    "description": "Sữa bột Abbott Grow 3 – hộp 400g (dành cho trẻ từ 1 – 3 tuổi)"
+  },
+  {
+    "sku": "000021",
+    "name": "Sữa bột Abbott Grow G-Power 3+ – hộp 400g",
+    "category": "Sữa bột",
+    "price": "181.500VNĐ",
+    "description": "Sữa bột Abbott Grow G-Power 3+ – hộp 400g (dành cho trẻ từ 3 – 6 tuổi)"
+  },
+  {
+    "sku": "000022",
+    "name": "Sữa bột Abbott Similac Go & Grow – hộp 624g",
+    "category": "Sữa bột",
+    "price": "550.000VNĐ",
+    "description": "Sữa bột Abbott Similac Go & Grow – hộp 624g (dành cho trẻ từ 9 – 24 tháng tuổi)"
+  },
+  {
+    "sku": "000023",
+    "name": "Sữa bột Abbott Grow School G-Power 6+ – hộp 400g",
+    "category": "Sữa bột",
+    "price": "149.000VNĐ",
+    "description": "Sữa bột Abbott Grow School G-Power 6+ – hộp 400g (dành cho trẻ từ 6 đến 10 tuổi)"
+  },
+  {
+    "sku": "000024",
+    "name": "Sữa bột Abbott Grow 4 – hộp 400g",
+    "category": "Sữa bột",
+    "price": "137.000VNĐ",
+    "description": "Sữa bột Abbott Grow 4 – hộp 400g (dành cho trẻ từ 3 – 6 tuổi)"
+  },
+  {
+    "sku": "000025",
+    "name": "Hộp giấy 180ml Abbott Grow Gold Vanilla",
+    "category": "Hộp giấy",
+    "price": "18.000VNĐ",
+    "description": ""
+  },
+  {
+    "sku": "000026",
+    "name": "Hộp giấy 110ml Abbott Grow Gold Vanilla",
+    "category": "Hộp giấy",
+    "price": "13.000VNĐ",
+    "description": ""
   }
 ]
