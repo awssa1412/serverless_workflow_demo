@@ -180,5 +180,19 @@
     "category": "Hộp giấy",
     "price": "13.000VNĐ",
     "description": ""
+  },
+  {
+    "sku": "000027",
+    "name": "Sữa bột Similac IQ 4",
+    "category": "Sữa bột",
+    "price": "474.000VNĐ",
+    "description": "Sữa bột Similac IQ 4"
+  },
+  {
+    "sku": "000028",
+    "name": "Sữa bột Similac Eye-Q 59ml",
+    "category": "Sữa bột",
+    "price": "532.000VNĐ",
+    "description": "Sữa bột Similac Eye-Q 59ml"
   }
 ]
