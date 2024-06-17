@@ -194,5 +194,26 @@
     "category": "Sữa bột",
     "price": "532.000VNĐ",
     "description": "Sữa bột Similac Eye-Q 59ml"
+  },
+  {
+    "sku": "000029",
+    "name": "Sữa bột Abbott PediaSure BA hương vani lon 400g",
+    "category": "Sữa bột",
+    "price": "305.000VNĐ",
+    "description": "Sữa bột Abbott PediaSure BA hương vani lon 400g"
+  },
+  {
+    "sku": "000030",
+    "name": "Sữa bột Abbott PediaSure BA hương vani lon 850g",
+    "category": "Sữa bột",
+    "price": "630.000VNĐ",
+    "description": "Sữa bột Abbott PediaSure BA hương vani lon 850g"
+  },
+  {
+    "sku": "000031",
+    "name": "Sữa bột Abbott PediaSure BA hương vani lon 1.6kg",
+    "category": "Sữa bột",
+    "price": "1.060.000VNĐ",
+    "description": "Sữa bột Abbott PediaSure BA hương vani lon 1.6kg"
   }
 ]
