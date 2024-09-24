@@ -1,0 +1,317 @@
+{
+    "customers": [
+      {
+        "name": "Công Ty TNHH Xây Dựng ABC",
+        "address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
+        "phone": "0909123456",
+        "debt": 50000000,
+        "credit_limit": 100000000,
+        "orders": [
+          {
+            "order_id": "ABC001",
+            "status": "Đang xử lý",
+            "items": [
+              {"product": "Khung trần chìm Vĩnh Tường", "quantity": 50},
+              {"product": "Tấm Thạch Cao Siêu Bền", "quantity": 100}
+            ]
+          },
+          {
+            "order_id": "ABC002",
+            "status": "Hoàn tất",
+            "items": [
+              {"product": "Thanh Viền Tường", "quantity": 75},
+              {"product": "Tấm Thạch Cao Tiêu Chuẩn", "quantity": 200}
+            ]
+          },
+          {
+            "order_id": "ABC003",
+            "status": "Hoàn tất",
+            "items": [
+              {"product": "Khung trần nổi Vĩnh Tường", "quantity": 40},
+              {"product": "Tấm trang trí Vĩnh Tường DECO", "quantity": 50}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Công Ty CP Thương Mại Long An",
+        "address": "456 Đường Phạm Văn Đồng, Quận Gò Vấp, TP.HCM",
+        "phone": "0912345678",
+        "debt": 30000000,
+        "credit_limit": 70000000,
+        "orders": [
+          {
+            "order_id": "LAN001",
+            "status": "Đang xử lý",
+            "items": [
+              {"product": "Khung trần chìm Vĩnh Tường TIKA", "quantity": 60},
+              {"product": "Tấm Thạch Cao Siêu Bền", "quantity": 120}
+            ]
+          },
+          {
+            "order_id": "LAN002",
+            "status": "Hoàn tất",
+            "items": [
+              {"product": "Tấm Thạch Cao Tiêu Chuẩn", "quantity": 150}
+            ]
+          },
+          {
+            "order_id": "LAN003",
+            "status": "Đang xử lý",
+            "items": [
+              {"product": "Khung trần nổi Vĩnh Tường", "quantity": 50}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Công Ty TNHH Xây Dựng Thiên Phát",
+        "address": "789 Đường Nguyễn Huệ, Quận 7, TP.HCM",
+        "phone": "0908765432",
+        "debt": 20000000,
+        "credit_limit": 50000000,
+        "orders": [
+          {
+            "order_id": "TP001",
+            "status": "Hoàn tất",
+            "items": [
+              {"product": "Khung trần chìm Vĩnh Tường BASI", "quantity": 80}
+            ]
+          },
+          {
+            "order_id": "TP002",
+            "status": "Hoàn tất",
+            "items": [
+              {"product": "Tấm Thạch Cao Siêu Bảo Vệ", "quantity": 200}
+            ]
+          },
+          {
+            "order_id": "TP003",
+            "status": "Đang xử lý",
+            "items": [
+              {"product": "Tấm Thạch Cao Siêu Chống Ẩm", "quantity": 100}
+            ]
+          },
+          {
+            "order_id": "TP004",
+            "status": "Đang xử lý",
+            "items": [
+              {"product": "Thanh Viền Tường", "quantity": 60}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Công Ty TNHH Xây Dựng Hoàng Gia",
+        "address": "25 Đường Nguyễn Văn Trỗi, Quận Phú Nhuận, TP.HCM",
+        "phone": "0912123456",
+        "debt": 80000000,
+        "credit_limit": 120000000,
+        "orders": [
+          {
+            "order_id": "HG001",
+            "status": "Hoàn tất",
+            "items": [
+              {"product": "Tấm trang trí Vĩnh Tường DECO", "quantity": 100}
+            ]
+          },
+          {
+            "order_id": "HG002",
+            "status": "Đang xử lý",
+            "items": [
+              {"product": "Tấm Thạch Cao Tiêu Chuẩn", "quantity": 200}
+            ]
+          },
+          {
+            "order_id": "HG003",
+            "status": "Hoàn tất",
+            "items": [
+              {"product": "Khung trần chìm Vĩnh Tường", "quantity": 50}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Công Ty TNHH Thương Mại Nam Sơn",
+        "address": "12 Đường Lê Đại Hành, Quận Tân Bình, TP.HCM",
+        "phone": "0987654321",
+        "debt": 40000000,
+        "credit_limit": 90000000,
+        "orders": [
+          {
+            "order_id": "NS001",
+            "status": "Hoàn tất",
+            "items": [
+              {"product": "Khung trần nổi Vĩnh Tường SmartLINE", "quantity": 90}
+            ]
+          },
+          {
+            "order_id": "NS002",
+            "status": "Đang xử lý",
+            "items": [
+              {"product": "Tấm Thạch Cao Trang Trí đục lỗ Eurotone", "quantity": 50}
+            ]
+          },
+          {
+            "order_id": "NS003",
+            "status": "Hoàn tất",
+            "items": [
+              {"product": "Tấm Thạch Cao Tiêu Chuẩn", "quantity": 120}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Công Ty TNHH Xây Dựng Minh Phúc",
+        "address": "123 Đường Trường Chinh, Quận Tân Phú, TP.HCM",
+        "phone": "0938123456",
+        "debt": 35000000,
+        "credit_limit": 85000000,
+        "orders": [
+          {
+            "order_id": "MP001",
+            "status": "Hoàn tất",
+            "items": [
+              {"product": "Tấm Thạch Cao Siêu Bền", "quantity": 140}
+            ]
+          },
+          {
+            "order_id": "MP002",
+            "status": "Hoàn tất",
+            "items": [
+              {"product": "Khung trần chìm Vĩnh Tường TIKA", "quantity": 100}
+            ]
+          },
+          {
+            "order_id": "MP003",
+            "status": "Đang xử lý",
+            "items": [
+              {"product": "Tấm Thạch Cao Tiêu Chuẩn", "quantity": 200}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Công Ty CP Đầu Tư Xây Dựng Bình An",
+        "address": "45 Đường Phạm Văn Chiêu, Quận Gò Vấp, TP.HCM",
+        "phone": "0914234567",
+        "debt": 10000000,
+        "credit_limit": 40000000,
+        "orders": [
+          {
+            "order_id": "BA001",
+            "status": "Hoàn tất",
+            "items": [
+              {"product": "Khung trần nổi Vĩnh Tường", "quantity": 60}
+            ]
+          },
+          {
+            "order_id": "BA002",
+            "status": "Đang xử lý",
+            "items": [
+              {"product": "Tấm trang trí Vĩnh Tường DECO", "quantity": 80}
+            ]
+          },
+          {
+            "order_id": "BA003",
+            "status": "Hoàn tất",
+            "items": [
+              {"product": "Khung trần chìm Vĩnh Tường", "quantity": 40}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Công Ty TNHH Sản Xuất TM Tiến Phát",
+        "address": "678 Đường 3 Tháng 2, Quận 10, TP.HCM",
+        "phone": "0908321654",
+        "debt": 25000000,
+        "credit_limit": 60000000,
+        "orders": [
+          {
+            "order_id": "TP001",
+            "status": "Đang xử lý",
+            "items": [
+              {"product": "Tấm Thạch Cao Siêu Bảo Vệ", "quantity": 200}
+            ]
+          },
+          {
+            "order_id": "TP002",
+            "status": "Hoàn tất",
+            "items": [
+              {"product": "Khung trần nổi Vĩnh Tường SmartLINE", "quantity": 50}
+            ]
+          },
+          {
+            "order_id": "TP003",
+            "status": "Hoàn tất",
+            "items": [
+              {"product": "Tấm Thạch Cao Tiêu Chuẩn", "quantity": 100}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Công Ty TNHH Thiết Kế Xây Dựng Nam Thành",
+        "address": "321 Đường Nguyễn Trãi, Quận 5, TP.HCM",
+        "phone": "0912128765",
+        "debt": 15000000,
+        "credit_limit": 50000000,
+        "orders": [
+          {
+            "order_id": "NT001",
+            "status": "Hoàn tất",
+            "items": [
+              {"product": "Khung trần chìm Vĩnh Tường BASI", "quantity": 80}
+            ]
+          },
+          {
+            "order_id": "NT002",
+            "status": "Đang xử lý",
+            "items": [
+              {"product": "Tấm Thạch Cao Siêu Chống Ẩm", "quantity": 120}
+            ]
+          },
+          {
+            "order_id": "NT003",
+            "status": "Hoàn tất",
+            "items": [
+              {"product": "Thanh Viền Tường", "quantity": 60}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Công Ty CP Thương Mại Dịch Vụ Hải Âu",
+        "address": "987 Đường Lạc Long Quân, Quận Tân Bình, TP.HCM",
+        "phone": "0923231234",
+        "debt": 70000000,
+        "credit_limit": 120000000,
+        "orders": [
+          {
+            "order_id": "HA001",
+            "status": "Hoàn tất",
+            "items": [
+              {"product": "Tấm trang trí Vĩnh Tường DECO", "quantity": 100}
+            ]
+          },
+          {
+            "order_id": "HA002",
+            "status": "Đang xử lý",
+            "items": [
+              {"product": "Tấm Thạch Cao Tiêu Chuẩn", "quantity": 150}
+            ]
+          },
+          {
+            "order_id": "HA003",
+            "status": "Hoàn tất",
+            "items": [
+              {"product": "Khung trần nổi Vĩnh Tường", "quantity": 40}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
+  
